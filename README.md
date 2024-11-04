@@ -26,7 +26,7 @@ The goal of this project is to showcase essential metrics, such as total sales, 
   - **Total Sales by Region and Product** (Stacked Column Chart): Compares product sales across different regions.
   - **Total Sales by Month** (Line and Stacked Column Chart): Shows monthly sales trends.
   - **Slicer**: A dropdown to filter data by Region and Product.
-
+      ![Slicer Image](images/Slicer.png)
 - **Row 3 (Additional Analysis)**:
   - **Total Sales by Region and Age Group** (Matrix Chart): Sales breakdown across regions and customer age groups.
   - **%GT Count of CustomerID by Purchase Frequency** (Clustered Bar Chart): Displays the proportion of repeat purchases.
