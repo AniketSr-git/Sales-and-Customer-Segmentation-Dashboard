@@ -1,5 +1,5 @@
 # Sales and Customer Segmentation Dashboard
-
+![Dashboard Overview](images/Dashboard.png)
 ## Overview
 This repository contains a comprehensive Power BI dashboard designed to provide insights into sales performance and customer segmentation. This interactive dashboard allows users to analyze sales trends, customer demographics, and purchasing behaviors to support data-driven decisions.
 
