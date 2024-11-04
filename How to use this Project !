@@ -1,0 +1,32 @@
+## How to Use This Project
+
+To effectively utilize the Sales and Customer Segmentation Dashboard, follow these steps:
+
+1. **Clone the Repository**:  
+   If you haven't already, clone the repository to your local machine using the following command:  
+   ```bash
+   git clone https://github.com/yourusername/Sales-and-Customer-Segmentation-Dashboard.git
+   ```  
+   Replace `yourusername` with your GitHub username.
+
+2. **Open Power BI Desktop**:  
+   Ensure you have Power BI Desktop installed on your machine. If not, download it from the [official Microsoft website](https://powerbi.microsoft.com/desktop/).
+
+3. **Open the Power BI File**:  
+   Navigate to the directory where you cloned the repository and open the `.pbix` file:  
+   ```plaintext
+   Sales-and-Customer-Segmentation-Dashboard/yourfile.pbix
+   ```  
+   Replace `yourfile.pbix` with the actual name of your Power BI file.
+
+4. **Explore the Dashboard**:  
+   Once the file is open, you will see an interactive dashboard featuring various visualizations. You can filter data using the slicers provided and explore insights on sales and customer segmentation.
+
+5. **Data Refresh**:  
+   If you want to update the data in the dashboard, click on the "Refresh" button in Power BI to pull the latest data from the underlying data model.
+
+6. **Customization**:  
+   Feel free to customize the dashboard as needed. You can modify the visualizations, add new metrics, or change the layout to better suit your analysis requirements.
+
+7. **Save Your Changes**:  
+   After making any modifications, remember to save your changes by clicking on the "Save" icon in Power BI Desktop.
