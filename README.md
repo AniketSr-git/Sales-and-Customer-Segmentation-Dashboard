@@ -34,11 +34,40 @@ The goal of this project is to showcase essential metrics, such as total sales, 
 
 ## Measures and Calculations
 Custom DAX measures created in the project:
+
 - **Total Sales**: Calculates the sum of all sales transactions.
+    ```DAX
+    Total Sales = SUM(Sales[SalesAmount])
+    ```
+
 - **Average Sales per Customer**: Computes the average transaction amount per customer.
+    ```DAX
+    Average Sales per Customer = 
+    DIVIDE([Total Sales], DISTINCTCOUNT(Sales[CustomerID]), 0)
+    ```
+
 - **Yearly Sales**: Sum of sales for the current year.
+    ```DAX
+    Yearly Sales = 
+    CALCULATE([Total Sales], YEAR(Sales[PurchaseDate]) = YEAR(TODAY()))
+    ```
+
 - **Yearly Sales Growth**: Calculates the year-over-year percentage growth.
+    ```DAX
+    Yearly Sales Growth = 
+    DIVIDE(
+        [Total Sales] - CALCULATE([Total Sales], DATEADD(Sales[PurchaseDate], -1, YEAR)), 
+        CALCULATE([Total Sales], DATEADD(Sales[PurchaseDate], -1, YEAR)), 
+        0
+    )
+    ```
+
 - **YTD Sales**: Year-to-Date sales measure.
+    ```DAX
+    YTD Sales = 
+    TOTALYTD([Total Sales], Sales[PurchaseDate])
+    ```
+
 
 ## Usage and Navigation
 This Power BI dashboard is designed for easy interaction:
