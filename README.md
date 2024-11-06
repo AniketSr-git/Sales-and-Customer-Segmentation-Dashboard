@@ -93,11 +93,7 @@ This dashboard provides actionable insights for sales teams and business stakeho
 To effectively utilize the Sales and Customer Segmentation Dashboard, follow these steps:
 
 1. **Clone the Repository**:  
-   If you haven't already, clone the repository to your local machine using the following command:  
-   ```bash
-   git clone https://github.com/yourusername/Sales-and-Customer-Segmentation-Dashboard.git
-   ```  
-   Replace `yourusername` with your GitHub username.
+   If you haven't already, clone the repository to your local machine .
 
 2. **Open Power BI Desktop**:  
    Ensure you have Power BI Desktop installed on your machine. If not, download it from the [official Microsoft website](https://powerbi.microsoft.com/desktop/).
